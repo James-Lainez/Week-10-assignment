@@ -1,14 +1,22 @@
 {
   "name": "week-10-dom",
   "version": "1.0.0",
+  "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Lainez/Week-10-assignment.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/James-Lainez/Week-10-assignment/issues"
+  },
+  "homepage": "https://github.com/James-Lainez/Week-10-assignment#readme",
   "dependencies": {
-    "bootstrap": "^5.3.7"
+    "jquery": "^3.7.1"
   }
 }
