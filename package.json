@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/James-Lainez/Week-10-assignment#readme",
   "dependencies": {
+    "bootstrap": "^5.3.7",
     "jquery": "^3.7.1"
   }
 }
