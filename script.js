@@ -53,14 +53,14 @@ favoriteColorText.style.color = 'white'
 
 // center table
 const alignTable = document.getElementById('table');
-alignTable.style.width = '1300px';
+alignTable.style.width = '900px';
 alignTable.style.marginLeft = 'auto';
 alignTable.style.marginRight = 'auto';
+alignTable.style.marginTop = '25px';
+
 // align form
 const alignForm = document.getElementById('form')
-alignForm.style.width = '950px'
+alignForm.style.width = '914px'
 alignForm.style.marginLeft = 'auto';
 alignForm.style.marginRight = 'auto';
 alignForm.style.marginTop = '75px'
-
-
