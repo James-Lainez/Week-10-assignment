@@ -6,6 +6,7 @@ const formButton = document.getElementById("formSubmit")
 
 let number = 0
 formButton.addEventListener('click', (event) => {
+
     event.preventDefault()
 
     let firstName = document.getElementById('firstName').value
@@ -15,9 +16,11 @@ formButton.addEventListener('click', (event) => {
 
     let newTr = document.createElement('tr');
 
+
     let addNumber = document.createElement('td')
     addNumber.innerHTML = number
     newTr.append(addNumber)
+
     let tdFirstName = document.createElement('td');
     tdFirstName.innerHTML = firstName
     newTr.append(tdFirstName)
@@ -26,7 +29,7 @@ formButton.addEventListener('click', (event) => {
     tdLastName.innerHTML = lastName;
     newTr.append(tdLastName);
 
-    let tdFavoriteColor =document.createElement('td');
+    let tdFavoriteColor = document.createElement('td');
     tdFavoriteColor.innerHTML = favoriteColor;
     newTr.append(tdFavoriteColor);
 
