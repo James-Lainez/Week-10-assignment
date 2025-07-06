@@ -10,16 +10,29 @@
     - A Bootstrap styled table representing your choice of data.
     - A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit.-->
 
-<table class="table">
-    <thead>
+<table class="table table-dark table-striped" id="table">
+    <thead id="tHead">
         <th>#</th>
         <th>First Name</th>
         <th>Last Name</th>
         <th>Favorite Color </th>
     </thead>
+    <tbody id="tBody">
+    </tbody> 
 </table>
 
-<form></form>
+<form id="form">
+    <label for="firstName" class="form-label">First Name</label>
+    <input type="text" class="form=control" id="firstName">
+    
+    <label for="lastName" class="form-label">Last Name</label>
+    <input type="text" class="form=control" id="lastName">
+    
+    <label for="favoriteColor" class="form-label">Favorite Color</label>
+    <input type="text" class="form=control" id="favoriteColor">
+
+    <button type="submit" id="formSubmit" class="btn btn-primary">Submit</button>
+</form>
 
 <link rel="stylesheet" href="node_modules/jquery/dist/jquery.js">
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
